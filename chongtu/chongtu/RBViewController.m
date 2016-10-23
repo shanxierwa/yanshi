@@ -27,9 +27,13 @@
 
 - (void)btnClick:(UIButton *)btn {
     NSLog(@"11");
+
     
     //开始制造冲突了
     NSLog(@"冲突");
+
+    NSLog(@"hahahaha啊哈哈");
+
 }
 
 @end
