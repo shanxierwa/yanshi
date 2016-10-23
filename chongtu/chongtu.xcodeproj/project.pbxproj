@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931B73B01DBCF91000FB14EF /* RCview.m in Sources */ = {isa = PBXBuildFile; fileRef = 931B73AF1DBCF91000FB14EF /* RCview.m */; };
 		937211361DBCE5B600631436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211351DBCE5B600631436 /* main.m */; };
 		937211391DBCE5B600631436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211381DBCE5B600631436 /* AppDelegate.m */; };
 		9372113C1DBCE5B600631436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372113B1DBCE5B600631436 /* ViewController.m */; };
@@ -15,12 +14,9 @@
 		937211411DBCE5B600631436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937211401DBCE5B600631436 /* Assets.xcassets */; };
 		937211441DBCE5B600631436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937211421DBCE5B600631436 /* LaunchScreen.storyboard */; };
 		937211551DBCED0E00631436 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211541DBCED0E00631436 /* RBViewController.m */; };
-		937211581DBCF68D00631436 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211571DBCF68D00631436 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		931B73AE1DBCF91000FB14EF /* RCview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCview.h; sourceTree = "<group>"; };
-		931B73AF1DBCF91000FB14EF /* RCview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCview.m; sourceTree = "<group>"; };
 		937211311DBCE5B600631436 /* chongtu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chongtu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937211351DBCE5B600631436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		937211371DBCE5B600631436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,8 +29,6 @@
 		937211451DBCE5B600631436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937211531DBCED0E00631436 /* RBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
 		937211541DBCED0E00631436 /* RBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
-		937211561DBCF68D00631436 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		937211571DBCF68D00631436 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +98,6 @@
 		937211501DBCEC4F00631436 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				937211561DBCF68D00631436 /* ThreeViewController.h */,
-				937211571DBCF68D00631436 /* ThreeViewController.m */,
-				931B73AE1DBCF91000FB14EF /* RCview.h */,
-				931B73AF1DBCF91000FB14EF /* RCview.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -197,12 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931B73B01DBCF91000FB14EF /* RCview.m in Sources */,
 				937211551DBCED0E00631436 /* RBViewController.m in Sources */,
 				9372113C1DBCE5B600631436 /* ViewController.m in Sources */,
 				937211391DBCE5B600631436 /* AppDelegate.m in Sources */,
 				937211361DBCE5B600631436 /* main.m in Sources */,
-				937211581DBCF68D00631436 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
