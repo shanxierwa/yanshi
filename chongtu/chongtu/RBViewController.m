@@ -27,6 +27,7 @@
 
 - (void)btnClick:(UIButton *)btn {
     NSLog(@"11");
+    NSLog(@"hahahaha啊哈哈");
 }
 
 @end
