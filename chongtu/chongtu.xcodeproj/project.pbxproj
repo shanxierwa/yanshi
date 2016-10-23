@@ -14,7 +14,6 @@
 		937211411DBCE5B600631436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937211401DBCE5B600631436 /* Assets.xcassets */; };
 		937211441DBCE5B600631436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937211421DBCE5B600631436 /* LaunchScreen.storyboard */; };
 		937211551DBCED0E00631436 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211541DBCED0E00631436 /* RBViewController.m */; };
-		937211581DBCF68D00631436 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937211571DBCF68D00631436 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		937211451DBCE5B600631436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937211531DBCED0E00631436 /* RBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
 		937211541DBCED0E00631436 /* RBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
-		937211561DBCF68D00631436 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		937211571DBCF68D00631436 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +98,6 @@
 		937211501DBCEC4F00631436 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				937211561DBCF68D00631436 /* ThreeViewController.h */,
-				937211571DBCF68D00631436 /* ThreeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,7 +191,6 @@
 				9372113C1DBCE5B600631436 /* ViewController.m in Sources */,
 				937211391DBCE5B600631436 /* AppDelegate.m in Sources */,
 				937211361DBCE5B600631436 /* main.m in Sources */,
-				937211581DBCF68D00631436 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
