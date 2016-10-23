@@ -62,7 +62,7 @@
 				937211381DBCE5B600631436 /* AppDelegate.m */,
 				9372113A1DBCE5B600631436 /* ViewController.h */,
 				9372113B1DBCE5B600631436 /* ViewController.m */,
-				9372114B1DBCEBAC00631436 /* Home */,
+				9372114F1DBCEC4F00631436 /* Home */,
 				9372113D1DBCE5B600631436 /* Main.storyboard */,
 				937211401DBCE5B600631436 /* Assets.xcassets */,
 				937211421DBCE5B600631436 /* LaunchScreen.storyboard */,
@@ -80,31 +80,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9372114B1DBCEBAC00631436 /* Home */ = {
+		9372114F1DBCEC4F00631436 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9372114C1DBCEBAC00631436 /* Controllers */,
-				9372114D1DBCEBAC00631436 /* Model */,
-				9372114E1DBCEBAC00631436 /* View */,
+				937211501DBCEC4F00631436 /* Controllers */,
+				937211511DBCEC4F00631436 /* Model */,
+				937211521DBCEC4F00631436 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		9372114C1DBCEBAC00631436 /* Controllers */ = {
+		937211501DBCEC4F00631436 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		9372114D1DBCEBAC00631436 /* Model */ = {
+		937211511DBCEC4F00631436 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9372114E1DBCEBAC00631436 /* View */ = {
+		937211521DBCEC4F00631436 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
