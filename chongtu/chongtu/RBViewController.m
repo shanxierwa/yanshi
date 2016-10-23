@@ -1,43 +1,39 @@
 //
-//  ViewController.m
+//  RBViewController.m
 //  chongtu
 //
 //  Created by ru on 16/10/23.
 //  Copyright © 2016年 ru. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RBViewController.h"
 
-@interface ViewController ()
+@interface RBViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RBViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"主线上有这句话");
-    NSLog(@"主线又来句");
-
-
-    self.title = @"one";
-    self.view.backgroundColor = [UIColor redColor];
-    
+    self.title = @"Two";
+    self.view.backgroundColor = [UIColor yellowColor];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
     btn.center = self.view.center;
     [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"点击");
-}
 
 - (void)btnClick:(UIButton *)btn {
     NSLog(@"11");
+
+    
+    //开始制造冲突了
+    NSLog(@"冲突");
+
+    NSLog(@"hahahaha啊哈哈");
+
 }
-
-
-
 
 @end
